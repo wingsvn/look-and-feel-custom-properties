@@ -80,7 +80,7 @@ h2 {
 
 p {
     font-size: var(--p);
-    font: var(--text-font);
+    font-family: var(--text-font);
 }
 
 button {
