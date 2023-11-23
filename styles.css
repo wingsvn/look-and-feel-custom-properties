@@ -16,14 +16,12 @@
     --title-font: arial, sans-serif;
     --text-font: helvetica, sans-serif;
     
-
-
     /* styling */
     --container-border: 0.1rem solid var(--tertiary-color);
     --container-width: 15rem;
     --container-height: 20rem;
 
-    --label-border: 0.1rem solid var(--tertiary-color);
+    --label-padding: 0.1rem;
 
     --button-padding: 1rem;
     --button-border: none;
@@ -52,17 +50,17 @@ h1 {
     width: var(--container-width);
     height: var(--container-height);
     position: relative;
+    text-align: center;
 }
 
 .label {
-    border-top: var(--label-border);
-    border-bottom: var(--label-border);
+    padding: var(--label-padding);
     background-color: var(--tertiary-color);
     color: var(--text-color);
 }
 
 .red-container {
-    background-color:  var(--background-color);
+    background-color: var(--background-color);
     border: 0.1rem solid var(--secundairy-color);
     width: var(--container-width);
     height: var(--container-height);
@@ -70,20 +68,19 @@ h1 {
 }
 
 .red-label {
-    border-top: 0.1rem solid var(--secundairy-color);
-    border-bottom: 0.1rem solid var(--secundairy-color);
+    padding: var(--label-padding);
     background-color: var(--secundairy-color);
     color: var(--background-color);
 }
 
 h2 {
     font-size: var(--label-size);
-    font-family: var(--text-font)
+    font-family: var(--text-font);
 }
 
 p {
     font-size: var(--p);
-    font-family: var(--text-font);
+    font: var(--text-font);
 }
 
 button {
@@ -97,7 +94,6 @@ button {
     position: absolute;
     left: 4.5rem;
     bottom: 1rem;
-    
 }
 
 .black-lidmaatschap {
