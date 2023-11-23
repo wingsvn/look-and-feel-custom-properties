@@ -1,0 +1,119 @@
+
+:root {
+    /* colors */
+    --body-color: #E4E9F7;
+    --background-color: #fff;
+    --text-color: #000;
+    --primairy-color: #707070;
+    --secundairy-color: #e30614;
+    --tertiary-color: #c8c8c8;
+
+    /* fonts */
+    --title-size: 2rem;
+    --label-size: 1.5rem;
+    --text-size: 1rem;
+    --button-size: 1rem;
+    --title-font: arial, sans-serif;
+    --text-font: helvetica, sans-serif;
+    
+
+
+    /* styling */
+    --container-border: 0.1rem solid var(--tertiary-color);
+    --container-width: 15rem;
+    --container-height: 20rem;
+
+    --label-border: 0.1rem solid var(--tertiary-color);
+
+    --button-padding: 1rem;
+    --button-border: none;
+    --button-border-radius: 2rem;
+    --button-width: 6rem;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--title-size);
+    font-family: var(--title-font);
+}
+
+.container {
+    background-color: var(--background-color);
+    border: var(--container-border);
+    width: var(--container-width);
+    height: var(--container-height);
+    position: relative;
+}
+
+.label {
+    border-top: var(--label-border);
+    border-bottom: var(--label-border);
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+}
+
+.red-container {
+    background-color:  var(--background-color);
+    border: 0.1rem solid var(--secundairy-color);
+    width: var(--container-width);
+    height: var(--container-height);
+    position: relative;
+}
+
+.red-label {
+    border-top: 0.1rem solid var(--secundairy-color);
+    border-bottom: 0.1rem solid var(--secundairy-color);
+    background-color: var(--secundairy-color);
+    color: var(--background-color);
+}
+
+h2 {
+    font-size: var(--label-size);
+    font-family: var(--text-font)
+}
+
+p {
+    font-size: var(--p);
+    font-family: var(--text-font);
+}
+
+button {
+    font-size: var(--button-size);
+    font-family: var(--text-font);
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    border: var(--button-border);
+    border-radius: var(--button-border-radius);
+    padding: var(--button-padding);
+    position: absolute;
+    left: 4.5rem;
+    bottom: 1rem;
+    
+}
+
+.black-lidmaatschap {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    position: absolute;
+    left: 4.5rem;
+    bottom: 1rem;
+}
+
+button:hover  {
+    background-color: var(--primairy-color);
+    color: var(--background-color);
+}
+
+button:active {
+    background-color: var(--secundairy-color);
+    color: var(--background-color);
+}
