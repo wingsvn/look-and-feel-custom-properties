@@ -50,7 +50,6 @@ h1 {
     width: var(--container-width);
     height: var(--container-height);
     position: relative;
-    text-align: center;
 }
 
 .label {
